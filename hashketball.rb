@@ -6,7 +6,7 @@ def game_hash
       team_name: "Brooklyn Nets",
       colors: ["Black", "White"],
       players: [
-      :reggie_evens =>  { 
+        { 
           :player_name: "Reggie Evans", 
           :number => 30, 
           :shoe => 14, 
@@ -16,6 +16,7 @@ def game_hash
           :steals => 12, 
           :blocks => 12, 
           :slam_dunks => 7 },
+          
         ]
     },
     :away = {}
